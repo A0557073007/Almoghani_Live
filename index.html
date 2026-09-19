@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ALMOGHANI LIVE</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;background:#020811;color:#fff;font-family:Arial,Tahoma,sans-serif}
+.wrap{position:relative;width:100%;max-width:520px;margin:auto;line-height:0}
+.hero{display:block;width:100%;height:auto}
+.hot{position:absolute;display:block;z-index:3;border-radius:18px;-webkit-tap-highlight-color:transparent}
+.hot:active{background:rgba(30,144,255,.16)}
+/* Coordinates are percentages of the approved portrait artwork */
+.live{left:6%;top:12%;width:88%;height:19%}
+.channels{left:52%;top:34%;width:20%;height:7%}
+.sports{left:75%;top:34%;width:20%;height:7%}
+.movies{left:29%;top:34%;width:20%;height:7%}
+.series{left:6%;top:34%;width:20%;height:7%}
+.matches{left:5%;top:48%;width:90%;height:14%}
+.moviegrid{left:5%;top:66%;width:90%;height:18%}
+.home{left:79%;top:94%;width:18%;height:5%}
+.search{left:59%;top:94%;width:18%;height:5%}
+.fav{left:40%;top:94%;width:18%;height:5%}
+.profile{left:3%;top:94%;width:18%;height:5%}
+.panel{display:none;position:fixed;inset:0;z-index:10;background:#020811;padding:18px;overflow:auto;line-height:1.5}
+.panel:target{display:block}
+.card{max-width:520px;margin:auto;background:#091426;border:1px solid #1e3a67;border-radius:22px;padding:20px}
+.back{display:inline-block;text-decoration:none;color:white;background:#1268ff;padding:10px 16px;border-radius:12px;margin-bottom:18px}
+h1{margin:8px 0 12px;font-size:24px}p{color:#b9c7dc}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btn{display:block;text-decoration:none;text-align:center;color:#fff;background:#111f36;border:1px solid #294a78;padding:15px 8px;border-radius:14px}
+</style>
+</head>
+<body>
+<main class="wrap" id="home">
+<img class="hero" src="almoghani-live-design.png" alt="ALMOGHANI LIVE">
+<a class="hot live" href="#live" aria-label="البث المباشر"></a>
+<a class="hot channels" href="#channels" aria-label="القنوات"></a>
+<a class="hot sports" href="#sports" aria-label="الرياضة"></a>
+<a class="hot movies" href="#movies" aria-label="الأفلام"></a>
+<a class="hot series" href="#series" aria-label="المسلسلات"></a>
+<a class="hot matches" href="#matches" aria-label="مباريات اليوم"></a>
+<a class="hot moviegrid" href="#movies" aria-label="أحدث الأفلام والمسلسلات"></a>
+<a class="hot home" href="#home" aria-label="الرئيسية"></a>
+<a class="hot search" href="#search" aria-label="البحث"></a>
+<a class="hot fav" href="#favorites" aria-label="المفضلة"></a>
+<a class="hot profile" href="#profile" aria-label="حسابي"></a>
+</main>
+
+<section id="matches" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>⚽ مباريات اليوم</h1><p>هذه الصفحة جاهزة لربط Football API لاحقًا لعرض المباريات والنتائج تلقائيًا.</p></div></section>
+<section id="live" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>🔴 البث المباشر</h1><p>واجهة البث جاهزة. لم يتم تضمين بيانات اشتراك IPTV داخل الملف العام.</p></div></section>
+<section id="channels" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>📺 القنوات</h1><div class="grid"><a class="btn" href="#sports">القنوات الرياضية</a><a class="btn" href="#home">القنوات العامة</a></div></div></section>
+<section id="sports" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>🏆 القنوات الرياضية</h1><p>القسم جاهز لإضافة القنوات ومصادر المشاهدة المصرح بها.</p></div></section>
+<section id="movies" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>🎬 الأفلام</h1><p>صفحة الأفلام جاهزة لإضافة المحتوى.</p></div></section>
+<section id="series" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>🍿 المسلسلات</h1><p>صفحة المسلسلات جاهزة لإضافة المحتوى.</p></div></section>
+<section id="search" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>🔎 البحث</h1><input id="q" placeholder="ابحث في ALMOGHANI LIVE" style="width:100%;padding:14px;border-radius:12px;border:1px solid #294a78;background:#08111f;color:#fff;font-size:16px"></div></section>
+<section id="favorites" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>⭐ المفضلة</h1><p>سيظهر هنا ما تضيفه إلى المفضلة.</p></div></section>
+<section id="profile" class="panel"><div class="card"><a class="back" href="#home">← رجوع</a><h1>👤 ALMOGHANI</h1>
+<div class="grid">
+<a class="btn" href="https://x.com/op430" target="_blank">X</a>
+<a class="btn" href="https://www.snapchat.com/add/Ls460g" target="_blank">Snapchat</a>
+<a class="btn" href="https://www.instagram.com/aaaaa287769/" target="_blank">Instagram</a>
+<a class="btn" href="https://www.tiktok.com/@Almoghani8" target="_blank">TikTok</a>
+<a class="btn" href="https://t.me/AHMED_ALMOGHANI" target="_blank">Telegram</a>
+<a class="btn" href="https://wa.me/966557073007" target="_blank">WhatsApp</a>
+<a class="btn" href="mailto:Ahmed@almoghani.net">Email</a>
+<a class="btn" href="https://www.youtube.com/@Ahmed1508" target="_blank">YouTube</a>
+</div></div></section>
+</body></html>
